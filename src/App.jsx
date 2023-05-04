@@ -12,29 +12,6 @@ import Navbar from './components/Navbar';
 import Protected from './components/Protected';
 import userService from './services/user';
 
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBI8Urpqz2-pZDakhOcFlgoEELNMdchrCY",
-  authDomain: "final-385703.firebaseapp.com",
-  projectId: "final-385703",
-  storageBucket: "final-385703.appspot.com",
-  messagingSenderId: "876270913261",
-  appId: "1:876270913261:web:d4abb13962d913d8dfaee4",
-  measurementId: "G-PT30HC5L54"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-
 function App() {
   const [user, setUser] = useState({});
   const [message, setMessage] = useState('');
