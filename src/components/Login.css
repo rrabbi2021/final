@@ -1,0 +1,12 @@
+.container {
+    text-align: center;  
+  }
+
+  body {
+    background-image: url('../assets/pexels-dmitry-demidov-3921045-modified.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
